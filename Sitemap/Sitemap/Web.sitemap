@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+	<!-- Root Node -->
+	<siteMapNode url="~/Root.aspx" title="Root" description="Root Page">
+
+		<!-- Parent 1 Node -->
+		<siteMapNode url="~/Parnt1.aspx" title="Parnt1" description="Parent 1 Page">
+
+			<!-- Child 11 Node -->
+			<siteMapNode url="~/Child11.aspx" title="Child11" description="Child 11 Page" />
+
+			<!-- Child 12 Node with Child Pages -->
+			<siteMapNode url="~/Child12.aspx" title="Child12" description="Child 12 Page">
+				<siteMapNode url="~/Child121.aspx" title="Child121" description="Child 121 Page" />
+				<siteMapNode url="~/Child122.aspx" title="Child122" description="Child 122 Page" />
+			</siteMapNode>
+
+			<!-- Child 13 Node -->
+			<siteMapNode url="~/Child13.aspx" title="Child13" description="Child 13 Page" />
+
+		</siteMapNode>
+
+		<!-- Parent 3 Node -->
+		<siteMapNode url="~/Parnt3.aspx" title="Parnt3" description="Parent 3 Page">
+			<siteMapNode url="~/Child31.aspx" title="Child31" description="Child 31 Page" />
+			<siteMapNode url="~/Child32.aspx" title="Child32" description="Child 32 Page" />
+		</siteMapNode>
+
+	</siteMapNode>
+</siteMap>

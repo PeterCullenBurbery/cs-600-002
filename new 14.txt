@@ -1,0 +1,28 @@
+Create this webpage
+paste image
+I am using asp.net.
+I think we enter the interest as percent value. If I was the instructor, you would enter 1.23, not 23, but that's what he wants.
+The formula is ((investment*interest)/100)*number of years+investment
+so simple interest, not compound interest. basically we put a number, not the percent. to put the number we /100. If we didn't put /100 we would put percent (like 23), not the number (0.23), which would mess up the calculations.
+we can also factor out investment like investment*(1+interest/100).
+
+so you have add modify and delete in the value box. For the image, we can use a link.
+you press the add button if its blank and you enter something. if you entered something and you want to change it, you use modify button. if you want to clear the field you use the delete button.
+
+I have starter code.
+
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+        </div>
+    </form>
+</body>
+</html>
